@@ -1,0 +1,447 @@
+ 
+	/********** navbar-styles **********/
+	body{
+
+		margin-top: 60px;
+		/*background-image: url('../img/fondoB.png');*/
+		
+      
+	}
+
+	.navbar{
+		border-radius: 0px;
+		margin-bottom: 0px;
+		border-bottom: solid 2px #dfdfdf;
+		background-color: #161616; /*color barra superior*/
+	
+
+	}
+
+	.navbar-default .navbar-nav>li>a{
+	    color: #fff;
+	    font-size: 12px; 
+	}
+
+	.navbar-default .navbar-nav>li>a:hover{
+		background: rgba(255, 255, 255,0.1);
+	    color: #fff;
+	}
+
+	.navbar-default .navbar-nav>li>a.ingresar{
+	    color: #ff9800;
+	    font-size: 12px;
+	    text-decoration: underline;
+	    font-weight: bolder;
+	}
+
+	.navbar-default .navbar-nav>li>a.ingresar:hover{
+	    color: #ff9800;
+	    font-size: 12px;
+	    background-color: transparent;
+	    text-decoration: underline;
+	}
+
+	.navbar-brand{
+	   	padding: 0px;
+	}
+
+  	.navbar-brand>img{
+	    height: 100%;
+	    width: auto;
+	    margin-left: 10px;
+	    padding: 5px 14px;
+  	}
+
+  	.navbar-default .navbar-toggle .icon-bar{
+  		background-color: #fff;
+  	}
+
+  	.navbar-default .navbar-toggle {
+    border-color: #ddd;
+	}
+  	
+
+  	.registro{
+  		margin-right: 20px;
+	  	margin-top: 15px;
+	  	padding-left: 10px;
+	  	padding-right: 10px;
+	  	margin-left: 3px;
+	  	font-size: 12px;
+  	}
+
+  	.inicia{
+  		text-decoration: underline;
+  		font-weight: bold;
+  	}
+
+
+	/********** navbar-styles **********/
+
+
+
+	/******** carousel-slides ********/
+	.item{ 
+		/*background-color: #efeee5;*/
+		background-image: url('../img/fondoB.png');
+	}
+
+	.carousel{
+		border-bottom: solid 2px #dfdfdf;
+	}
+	/******** carousel-slides ********/
+
+	
+
+	/******** home ********/
+	.repeat{
+		background-image: url('../img/colores.jpg');
+		background-color: #668933;
+		height: 40px; 
+		border-bottom: solid 2px #dfdfdf;
+	}
+
+	label{
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	.form-control{
+        background-color: #f3f3f6;
+    }
+
+    textarea:focus, textarea.form-control:focus, input.form-control:focus, input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=number]:focus, [type=text].form-control:focus, [type=password].form-control:focus, [type=email].form-control:focus, [type=tel].form-control:focus, [contenteditable].form-control:focus {
+    -webkit-box-shadow: inset 0 -2px 0 #7fa57b;
+    box-shadow: inset 0 -2px 0 #7fa57b;
+    }   
+
+    .close{
+        color:#fff !important;
+    }
+
+    .quitarfloat{
+        float: none;
+        margin-top: 55px;
+    }
+
+    .form-control-feedback{
+        margin-top: 10px;
+    }
+
+    .error{
+        color: red; 
+        margin:0px; 
+        padding: 0px;"
+    }
+
+    .contra{
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    
+
+    .exp{
+
+        color: #fff;
+        max-width: 50%;
+        height: 40px;
+        background-color: #668933;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        margin-top: 1px;
+    }
+	/*.video{
+		margin: 0px auto;
+		padding: 40px;
+		width: 800px;
+		height: 650px;
+	}*/
+
+
+
+
+	.ima-barra{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.ima-barra-curso{
+		height: 2px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		
+	}
+
+	.ima-titulo{
+		margin-top: 10px;
+		margin-bottom: 40px;
+		margin-left: -95px;
+		margin-right: -95px;
+	}
+
+
+
+	.hex1 {
+	    background: #4eb8c5; /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#4eb8c5 60%); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#4eb8c5 60%); /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#4eb8c5 60%);/* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#4eb8c5 60%); /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+
+	.hex2 {
+	    background: #ec8aa5; /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#ec8aa5 60%); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#ec8aa5 60%); /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#ec8aa5 60%); /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#ec8aa5 60%); /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+	.hex3 {
+	    background: #EA5A96; /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#EA5A96 60%); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#EA5A96 60%); /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#EA5A96 60%); /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#EA5A96 60%);  /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+	.hex4 {
+	    background: #D6267A; /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#D6267A 60%); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#D6267A 60%);  /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#D6267A 60%);  /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#D6267A 60%);  /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+	.hex5 {
+	    background: #84599E; /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#84599E 60%); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#84599E 60%); /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#84599E 60%); /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#84599E 60%); /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+	.hex6 {
+	    background: #4684C4; /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#4684C4 60%); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#4684C4 60%);   /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#4684C4 60%); ;  /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#4684C4 60%);  /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+	.hex7 {
+	    background: #686B71 /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#686B71 60%); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#686B71 60%); /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#686B71 60%); /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#686B71 60%);  /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+	.hex8 {
+	    background: #F5A361 /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#F5A361 60%); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#F5A361 60%);   /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#F5A361 60%); /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#F5A361 60%);  /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+	.hex9 {
+	    background: #FAE18A;/* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#FAE18A 60%);  /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#FAE18A 60%);/* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#FAE18A 60%); /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#FAE18A 60%); /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+	.hex10 {
+	    background: #454C9A /* For browsers that do not support gradients */    
+	    background: -webkit-radial-gradient(#F5F5F5 -35%,#454C9A 60%); /* Safari 5.1 to 6.0 */
+	    background: -o-radial-gradient(#F5F5F5 -35%,#454C9A 60%); /* For Opera 11.6 to 12.0 */
+	    background: -moz-radial-gradient(#F5F5F5 -35%,#454C9A 60%);  /* For Firefox 3.6 to 15 */
+	    background: radial-gradient(#F5F5F5 -35%,#454C9A 60%);  /* Standard syntax (must be last) */
+	    border-radius: 10px;
+	}
+
+
+
+	.btn-danger {
+    color: #ffffff;
+    /*background-color: rgba(241, 227, 227, 0.39);*/
+    background-color: transparent;
+    border-color: white;
+    border-width: medium;
+	}
+
+	.btn:hover, .btn:focus, .btn.focus {
+    color: #e6dfdf;
+    text-decoration: none;
+    background: #D6267A;
+	}
+
+
+	.marco-left{
+		margin-right: -35px;
+		margin-top: 20px;
+	}
+
+
+    p.marco {
+    text-align: justify;
+    border-left-style: inset;
+    border-top-style: inset;
+    border-bottom-style: inset;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+	}
+
+
+	.marco2 {
+    text-align: justify;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    margin-top: -7px;
+	}
+
+
+
+
+	footer{
+		background-image: url('../img/footer.png');
+		/*border-top: solid 5px #dfdfdf;*/
+		height: auto;
+	}
+	/******** home ********/
+
+
+	/******** responsive ********/
+	@media screen and (max-width: 900px){
+
+	.navbar-default .navbar-nav>li>a{
+	    font-size: 10px;
+	    padding-left: 5px;
+	    padding-right: 5px;
+	}
+
+	.navbar-default .navbar-nav>li>a.ingresar{
+	    color: #ff9800;
+	    font-size: 10px;
+	    text-decoration: underline;
+	    font-weight: bolder;
+	}
+
+	.navbar-default .navbar-nav>li>a.ingresar:hover{
+	    color: #ff9800;
+	    font-size: 10px;
+	    background-color: transparent;
+	    text-decoration: underline;
+	}
+
+	.registro{
+	  	margin-top: 18px;
+	  	padding-left: 10px;
+	  	padding-right: 10px;
+	  	margin-left: 3px;
+	  	font-size: 10px;
+  	}
+		
+	}
+	/******** responsive ********/
+
+
+
+
+	
+	/********** Contacto Karla **********/
+
+		
+	#footer {
+	  color:#fff;
+	}
+
+	.footer-top {
+	  position: relative;
+	  padding:30px 0
+	}
+
+	#footer .footer-bottom {
+	  background-color: #fff;
+	  padding: 20px 0 10px;
+	}
+
+	#footer .footer-bottom a:hover {
+	  text-decoration: underline;
+	}
+
+	.footer-logo {
+	  display: inline-block;
+	  margin-bottom: 5px;
+	}
+
+	#footer .social-icons {
+	  margin-top: 15px;
+	}
+
+	#footer .social-icons ul {
+	  list-style: none;
+	  padding: 0;
+	  margin: 0;
+	}
+
+	#footer .social-icons ul li a {
+	  background-color: rgba(0,0,0,.2);
+	  border-radius: 4px;
+	  line-height: 33px;
+	}
+
+	#footer .social-icons ul li a:hover {
+	  color: #fff
+	}
+
+	#footer .social-icons ul li a.envelope:hover {
+	  background-color: #CECB26;
+	}
+
+	#footer .social-icons ul li a.facebook:hover {
+	  background-color: #3b5999;
+	}
+	#footer .social-icons ul li a.twitter:hover {
+	  background-color: #2ac6f7;
+	}
+	#footer .social-icons ul li a.dribbble:hover {
+	  background-color: #ff5b92;
+	}
+	#footer .social-icons ul li a.linkedin:hover {
+	  background-color: #036dc0;
+	}
+	#footer .social-icons ul li a.tumblr:hover {
+	  background-color: #ff6b00;
+	}
+
+
+
+
+
+
+
+
+
+
+
