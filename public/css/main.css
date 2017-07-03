@@ -1,3 +1,20 @@
+
+	.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  background-color: transparent;
+ 
+}
+
+
  
 	/********** navbar-styles **********/
 	body{
@@ -32,6 +49,7 @@
 	    font-size: 12px;
 	    text-decoration: underline;
 	    font-weight: bolder;
+
 	}
 
 	.navbar-default .navbar-nav>li>a.ingresar:hover{
@@ -68,6 +86,7 @@
 	  	padding-right: 10px;
 	  	margin-left: 3px;
 	  	font-size: 12px;
+
   	}
 
   	.inicia{
@@ -87,7 +106,9 @@
 	}
 
 	.carousel{
+		/*border-bottom: solid 2px #dfdfdf;*/
 		border-bottom: solid 2px #dfdfdf;
+		box-shadow: inset 0 -2px 0 #7fa57b;
 	}
 	/******** carousel-slides ********/
 
@@ -116,7 +137,7 @@
     }   
 
     .close{
-        color:#fff !important;
+        /* color: red !important;*/
     }
 
     .quitarfloat{
@@ -278,15 +299,18 @@
 	.btn-danger {
     color: #ffffff;
     /*background-color: rgba(241, 227, 227, 0.39);*/
-    background-color: transparent;
-    border-color: white;
+    /*background-color: transparent;*/
+    background-color: #D6267A;
+    /*border-color: white;*/
     border-width: medium;
+    /*border: solid 1px #fff;*/
 	}
 
 	.btn:hover, .btn:focus, .btn.focus {
     color: #e6dfdf;
     text-decoration: none;
     background: #D6267A;
+
 	}
 
 

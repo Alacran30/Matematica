@@ -1,165 +1,141 @@
 @extends('index.template.main')
 
-@section('title')
+@section('title', 'Home')
 
-Plataforma Educativa
-
-@endsection
 @section('section')
-  <!-- /.carousel-slide -->
-
- 
-
-    <center>
-        <img class="img-responsive" src="{{asset('img/colores.jpg')}}" style="width: 1350px; height: 15px;">
-    </center> 
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        </ol>
         <div class="item active">
           <center>
-            <img class="img-responsive" src="{{asset('img/Fondo-3.jpg')}}">
+            <img class="img-responsive" src="{{asset('img/Fondo-6.2.jpg')}}">
           </center> 
         </div>
       </div>
     </div >
-
-    <center id="cursos" >
-        <img class="img-responsive" src="{{asset('img/colores.jpg')}}" style="width: 1350px; height: 10px;">
-    </center> 
-
-
-
-  <!-- /.carousel-slide -->
-
-  <div class="container" style="margin-top: 25px;">
-    <div class="ima-titulo">
-      <img aling="left" class="img-responsive" src="{{asset('img/NC.png')}}" style="width: 590px; height: 105px;">
-    </div>
+    <!-- /.carousel-slide -->
+    <div class="container" style="margin-top: 20px;" id="cursos">
+      <div class="ima-titulo" >
+        <img aling="left" class="img-responsive" src="{{asset('img/NC.png')}}" style="width: 590px; height: 105px;">
+      </div>
+    <!-- /.carousel-slide -->
  
     <!--modulos-->
-
-      <div class="col-lg-12">
+    <div class="col-lg-12">
       <div class="row" style="text-align: center;">
-             <div class="col-md-3">
-                <div class="panel panel-default" style="background-color: #80ccd5;border-radius: 10px;">
-                    <div class="panel-body hex1">
-                    <CENTER>
-                        <img class="img-responsive" src="{{asset('img/mate-1.png')}}">
-                    </CENTER>
-                    </div>
-                    <div class="panel-heading">
-                       <strong style="color: #80ccd5;"><p>MATEMÁTICAS 1</p></strong>
-                    <button type="button" class="btn btn-default">VER CURSO</button>
-                    </div>
-                </div>
+        <div class="col-md-3">
+          <div class="panel panel-default" style="background-color: #80ccd5;border-radius: 10px;">
+            <div class="panel-body hex1">
+              <center>
+                <img class="img-responsive" src="{{asset('img/mate-1.png')}}">
+              </center>
             </div>
-            <div class="col-md-3">
-                <div class="panel panel-default" style="background-color: #f9cadb;border-radius: 10px;">
-                    <div class="panel-body hex2">
-                    <CENTER>
-                        <img class="img-responsive" src="{{asset('img/mate-2.png')}}">
-                    </CENTER>
-                    </div>
-                    <div class="panel-heading">
-                    <strong style="color: #f9cadb;"><p>MATEMÁTICAS 2</p></strong>
-                      <button type="button" class="btn btn-default">VER CURSO</button>
-                    </div>
-                </div>
+            <div class="panel-heading">
+                <strong style="color: #80ccd5;"><p>MATEMÁTICAS 1</p></strong>
+                <button type="button" class="btn btn-default">VER CURSO</button>
             </div>
-            <div class="col-md-3">
-                <div class="panel panel-default" style="background-color: #f08bb5;border-radius: 10px;">
-                    <div class="panel-body hex3">
-                    <CENTER>
-                        <img class="img-responsive" src="{{asset('img/mate-3.png')}}">
-                    </CENTER>
-                    </div>
-                    <div class="panel-heading">
-                    <strong style="color: #f08bb5;"><p>MATEMÁTICAS 3</p></strong>
-                       <button type="button" class="btn btn-default">VER CURSO</button>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="panel panel-default" style="background-color: #f9cadb;border-radius: 10px;">
+            <div class="panel-body hex2">
+              <center>
+                <img class="img-responsive" src="{{asset('img/mate-2.png')}}">
+              </center>
             </div>
-            <div class="col-md-3">
-                <div class="panel panel-default" style="background-color: #d93381;border-radius: 10px;">
-                    <div class="panel-body hex4">
-                    <CENTER>
-                        <img class="img-responsive" src="{{asset('img/mate-4.png')}}">
-                    </CENTER>
-                    </div>
-                    <div class="panel-heading">
-                        <strong style="color: #d93381;"><p>MATEMÁTICAS 4</p></strong>
-                        <button type="button" class="btn btn-default">VER CURSO</button>
-                    </div>
-                </div>
+            <div class="panel-heading">
+                <strong style="color: #f9cadb;"><p>MATEMÁTICAS 2</p></strong>
+                <button type="button" class="btn btn-default">VER CURSO</button>
             </div>
-    </div>
-
-     <div class="ima-barra-curso"> 
-     </div> 
-
-        <div class="row" style="text-align: center;">
-             <div class="col-md-3">
-                <div class="panel panel-default" style="background-color: #865a9f;border-radius: 10px;">
-                    <div class="panel-body hex5">
-                    <CENTER>
-                        <img class="img-responsive" src="{{asset('img/calculo-d.png')}}">
-                    </CENTER>
-                    </div>
-                    <div class="panel-heading">
-                    <strong style="color: #865a9f;"><p>CÁLCULO DIFERENCIAL</p></strong>
-                       <button type="button" class="btn btn-default">VER CURSO</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="panel panel-default" style="background-color: #4987c5;border-radius: 10px;">
-                    <div class="panel-body hex6">
-                    <CENTER>
-                        <img class="img-responsive" src="{{asset('img/calculo-i.png')}}">
-                    </CENTER>
-                    </div>
-                    <div class="panel-heading">
-                    <strong style="color: #4987c5;"><p>CÁLCULO INTEGRAL</p></strong>
-                        <button type="button" class="btn btn-default">VER CURSO</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="panel panel-default" style="background-color: #7d7971;border-radius: 10px;">
-                    <div class="panel-body hex7">
-                    <CENTER>
-                        <img class="img-responsive" src="{{asset('img/estadistica.png')}}">
-                    </CENTER>
-                    </div>
-                    <div class="panel-heading">
-                    <strong style="color: #7d7971;"><p>PROBABILIDAD & ESTADÍSTICA</p></strong> 
-                        <button type="button" class="btn btn-default">VER CURSO</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="panel panel-default" style="background-color: #f8be90;border-radius: 10px;">
-                    <div class="panel-body hex8">
-                    <CENTER>
-                        <img class="img-responsive" src="{{asset('img/mate-financiera.png')}}">
-                    </CENTER>
-                    </div>
-                    <div class="panel-heading">
-                    <strong style="color: #f8be90;"><p>MATEMÁTICAS FINANCIERAS</p></strong> 
-                      <button type="button" class="btn btn-default">VER CURSO</button>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default" style="background-color: #f08bb5;border-radius: 10px;">
+              <div class="panel-body hex3">
+                <center>
+                    <img class="img-responsive" src="{{asset('img/mate-3.png')}}">
+                </center>
+              </div>
+              <div class="panel-heading">
+                <strong style="color: #f08bb5;"><p>MATEMÁTICAS 3</p></strong>
+                <button type="button" class="btn btn-default">VER CURSO</button>
+              </div>
             </div>
         </div>
-
+        <div class="col-md-3">
+            <div class="panel panel-default" style="background-color: #d93381;border-radius: 10px;">
+              <div class="panel-body hex4">
+                <center>
+                  <img class="img-responsive" src="{{asset('img/mate-4.png')}}">
+                </center>
+              </div>
+              <div class="panel-heading">
+                <strong style="color: #d93381;"><p>MATEMÁTICAS 4</p></strong>
+                <button type="button" class="btn btn-default">VER CURSO</button>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="ima-barra-curso"> 
+    </div> 
+    <div class="row" style="text-align: center;">
+        <div class="col-md-3">
+        <div class="panel panel-default" style="background-color: #865a9f;border-radius: 10px;">
+          <div class="panel-body hex5">
+            <center>
+              <img class="img-responsive" src="{{asset('img/calculo-d.png')}}">
+            </center>
+          </div>
+          <div class="panel-heading">
+            <strong style="color: #865a9f;"><p>CÁLCULO DIFERENCIAL</p></strong>
+            <button type="button" class="btn btn-default">VER CURSO</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-default" style="background-color: #4987c5;border-radius: 10px;">
+          <div class="panel-body hex6">
+            <center>
+              <img class="img-responsive" src="{{asset('img/calculo-i.png')}}">
+            </center>
+          </div>
+          <div class="panel-heading">
+            <strong style="color: #4987c5;"><p>CÁLCULO INTEGRAL</p></strong>
+            <button type="button" class="btn btn-default">VER CURSO</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-default" style="background-color: #7d7971;border-radius: 10px;">
+          <div class="panel-body hex7">
+            <center>
+              <img class="img-responsive" src="{{asset('img/estadistica.png')}}">
+            </center>
+          </div>
+          <div class="panel-heading">
+            <strong style="color: #7d7971;"><p>PROBABILIDAD & ESTADÍSTICA</p></strong> 
+            <button type="button" class="btn btn-default">VER CURSO</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-default" style="background-color: #f8be90;border-radius: 10px;">
+          <div class="panel-body hex8">
+            <center>
+              <img class="img-responsive" src="{{asset('img/mate-financiera.png')}}">
+            </center>
+          </div>
+          <div class="panel-heading">
+            <strong style="color: #f8be90;"><p>MATEMÁTICAS FINANCIERAS</p></strong> 
+            <button type="button" class="btn btn-default">VER CURSO</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="ima-barra-curso">
     </div>
 
-        <div class="row" style="text-align: center;" id="cursos">
+        <div class="row" style="text-align: center;" >
             <div class="col-md-3">
             </div>
             <div class="col-md-3">
@@ -192,14 +168,11 @@ Plataforma Educativa
             </div>
           </div>
     </div>
-
-
-        <!--/.modulos-->
+    <!--/.modulos-->
   </div>
-    
-<!-- fin de cursos -->
+  <!-- fin de cursos -->
 
-    <div class="ima-barra" id="Quienes">
+    <div class="ima-barra" id="quienes">
       <center>
             <img class="img-responsive" src="{{asset('img/Cinta.png')}}" style="width: 1350px; height: 5px;">
       </center>
@@ -428,6 +401,8 @@ Plataforma Educativa
       
     </div>
   </div>
+
+
 
 @endsection
 

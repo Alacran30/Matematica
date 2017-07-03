@@ -1,8 +1,21 @@
 <?php
 
+namespace App\Http\Controllers;
 namespace App\Http\Controllers\Auth;
-
+use Auth;
+use Session;
+use Redirect;
+use App\User;
+use Validator;
 use App\Http\Controllers\Controller;
+use Illuminate\Foundation\Auth\ThrottlesLogins;
+use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Illuminate\Http\Request;
+use App\Http\Requests;
+
+
+
+
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller
@@ -35,5 +48,28 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+     protected $redirectPath = '/administrador/perfil';
+
+    protected $loginPath = '/administrador/auth/login';
+
+    protected function getLogin(){
+        return view('administrador.welcome');
+    }
+
+    protected function postLogin(Request $request){
+
+         if(Auth::attempt(['email'=> $request ['email'], 'password' => $request['password']])){
+
+            
+
+             return Redirect::to('inicio');
+
+            }
+
+            
+
+             return Redirect::to('administrador')->with('message-info', ' Credenciales incorrectas');
     }
 }
